@@ -1,0 +1,37 @@
+{ "databaseChangeLog": [
+    {
+      "property": {
+          "dbms": "oracle",
+          "name": "table.name",
+          "value": "oracle_table"
+      }
+  },
+  {
+      "property": {
+          "dbms": "postgresql",
+          "name": "table.name",
+          "value": "postgresql_table"
+      }
+  },
+  {
+      "property": {
+          "dbms": "oracle",
+          "name": "mySpecialValue",
+          "value": "(255)"
+      }
+  },
+  {
+      "property": {
+          "dbms": "postgresql",
+          "name": "mySpecialValue",
+          "value": ""
+      }
+  },
+  {
+    "include": {
+      "file": "test_variables1.json",
+      "author": "support.liquibase.net",
+      "relativeToChangeLog": "true"
+    }
+  }
+]}
