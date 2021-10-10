@@ -29,7 +29,7 @@
   },
   {
     "include": {
-      "file": "test_variables1.json",
+      "file": "child_changelog.json",
       "author": "support.liquibase.net",
       "relativeToChangeLog": "true"
     }
