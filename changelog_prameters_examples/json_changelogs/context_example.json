@@ -29,7 +29,7 @@
     },
     {
         "changeSet": {
-        "id": "createTable-${table.name}-example",
+        "id": "createTable-example",
         "author": "liquibase-docs",
         "changes": [
         {
